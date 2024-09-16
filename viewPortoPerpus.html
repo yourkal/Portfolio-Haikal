@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Detail Portfolio</title>
+  <title>Library Web Details</title>
   <style>
     * {
       margin: 0;
@@ -45,51 +45,78 @@
       padding: 10px;
       text-align: center;
     }
+
+    /* Center the last remaining image */
+    .gallery-container:only-child {
+      display: flex;
+      justify-content: center;
+    }
+
+    /* Make sure the gallery-item size remains consistent */
+    .gallery-container:only-child .gallery-item {
+      width: 100%; /* The image size will stay the same */
+    }
   </style>
 </head>
 <body>
-  <h1>Detail Portfolio</h1>
+  <h1>Library Web Details</h1>
   <div class="gallery-container">
-    <!-- Image 1 -->
     <div class="gallery-item">
-      <img src="./images/portfolios/PORTOFOLIO1.JPG" alt="Image 1" />
-      <div class="description">Image 1 Description</div>
+      <img src="./images/portfolios/poetoREGISTER-PERPUS.JPG" alt="Image 1" />
+      <div class="description">Register Page</div>
     </div>
 
-    <!-- Image 2 -->
     <div class="gallery-item">
-      <img src="./images/portfolios/PORTOFOLIO2.JPG" alt="Image 2" />
-      <div class="description">Image 2 Description</div>
+      <img src="./images/portfolios/portoLOGIN-PERPUST.JPG" alt="Image 2" />
+      <div class="description">Login Page</div>
     </div>
-
-    <!-- Image 3 -->
-    <div class="gallery-item">
-      <img src="./images/portfolios/PORTOFOLIO3.JPG" alt="Image 3" />
-      <div class="description">Image 3 Description</div>
-    </div>
-    <!-- Add more images here -->
   </div>
+
   <br>
   <div class="gallery-container">
-    <!-- Image 1 -->
     <div class="gallery-item">
-      <img src="./images/portfolios/PORTOFOLIO1.JPG" alt="Image 1" />
-      <div class="description">Image 1 Description</div>
+      <img src="./images/portfolios/PORTOhome-PERPUST.JPG" alt="Image 3" />
+      <div class="description">Library Home Page</div>
     </div>
 
-    <!-- Image 2 -->
     <div class="gallery-item">
-      <img src="./images/portfolios/PORTOFOLIO2.JPG" alt="Image 2" />
-      <div class="description">Image 2 Description</div>
+      <img src="./images/portfolios/PORTBOOKS-PERPUS.JPG" alt="Image 4" />
+      <div class="description">User Book Page</div>
+    </div>
+  </div>
+
+  <br>
+  <div class="gallery-container">
+    <div class="gallery-item">
+      <img src="./images/portfolios/PORT-DETAILBOOKS.JPG" alt="Image 5" />
+      <div class="description">User Book Detail Page</div>
     </div>
 
-    <!-- Image 3 -->
     <div class="gallery-item">
-      <img src="./images/portfolios/PORTOFOLIO3.JPG" alt="Image 3" />
-      <div class="description">Image 3 Description</div>
+      <img src="./images/portfolios/PORT-PEMINJAMAN.JPG" alt="Image 6" />
+      <div class="description">User Loan Page</div>
     </div>
-    <!-- Add more images here -->
-     
+  </div>
+
+  <br>
+  <div class="gallery-container">
+    <div class="gallery-item">
+      <img src="./images/portfolios/PORT-ADMINDASHBOARD.JPG" alt="Image 7" />
+      <div class="description">Admin Dashboard</div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="./images/portfolios/port-adminPeminjaman.JPG" alt="Image 8" />
+      <div class="description">Admin Loan Page</div>
+    </div>
+  </div>
+
+  <br>
+  <div class="gallery-container">
+    <div class="gallery-item">
+      <img src="./images/portfolios/port-adminDetaipeminjaman.JPG" alt="Image 9" />
+      <div class="description">Admin Loan Detail Page</div>
+    </div>
   </div>
 </body>
 </html>

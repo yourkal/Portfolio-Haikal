@@ -15,7 +15,7 @@
       <div class="main-container">
         <div class="nav">
           <div class="logo ">
-            <a href="/"><i class="fa-solid fa-h fa-beat-fade"></i></a>
+            <a href="/"><i class="fa-solid fa-h fa-beat-fade"></i> Haikal</a>
           </div>
 
           <nav>
@@ -25,7 +25,7 @@
               <li><a href="#skills">Skills</a></li>
               <li><a href="#contact">Contact</a></li>
               <li>
-                <a href="/CV_HAIKAL_AHMAD_RIDHO.pdf" target="_blank">
+                <a href="CV_HAIKAL_AHMAD_RIDHO.pdf" target="_blank">
                   <button class="btn">Resume</button>
                 </a>
               </li>
@@ -50,7 +50,7 @@
           </div>
 
           <div class="hero-right egg ">
-            <img src="./images/hero-img-smk.jpeg" alt="Person Standing" />
+            <img src="./images/hero-img-smk-2.png" alt="Person Standing" />
           </div>
         </section>
       </div>
@@ -157,13 +157,13 @@
           <div class="portfolio">
             <div class="portfolio-cover">
               <img
-                src="./images/portfolios/PORTOFOLIO6.JPG"
-                alt="Portfolio 1"
+                src="./images/portfolios/PORTOFOLIO2.JPG"
+                alt="Portfolio 2"
               />
             </div>
             <div class="portfolio-info">
               <div class="portfolio-title">
-                <h4>Food Ordering App</h4>
+                <h4>Food Ordering Web</h4>
                 <a href="/viewPortoFoodOrder.html" class="portfolio-link">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -229,52 +229,54 @@
     </section>
     <!-- End Portfolios -->
 
-    <!-- Skills & Education -->
+    <!-- Skills & Experience -->
     <section id="skills">
       <div class="skills main-container">
         <h3 class="pre-title">Learning Path</h3>
-        <h1 class="section-title">Education & Skills</h1>
+        <h1 class="section-title">Education</h1>
 
         <div class="skills-grid">
           <div class="skills-left">
-            <div class="education">
+            <div class="Experience">
               <div class="line">
                 <div></div>
               </div>
-              <div class="education-info">
-                <h4 class="education-title">SMKN 1 CISARUA</h4>
+              <div class="Experience-info">
+                <h4 class="Experience-title">SMKN 1 CISARUA</h4>
                 <p>Bandung Barat - Software Engineering</p>
-                <h4 class="education-years">2021 - 2024</h4>
+                <h4 class="Experience-years">2021 - 2024</h4>
               </div>
             </div>
-            <div class="education">
+
+            <h1 class="section-title">Experience</h1>
+            <div class="Experience">
               <div class="line">
                 <div></div>
               </div>
-              <div class="education-info">
-                <h4 class="education-title">Kingston University</h4>
-                <p>Master's Degree - Software Engineering</p>
-                <h4 class="education-years">2019 - 2023</h4>
+              <div class="Experience-info">
+                <h4 class="Experience-title">PT Bara Teknovasi</h4>
+                <p>Bandung - Web Development</p>
+                <h4 class="Experience-years">July 2023 - December 2023</h4>
               </div>
             </div>
-            <div class="education">
+            <div class="Experience">
               <div class="line">
                 <div></div>
               </div>
-              <div class="education-info">
-                <h4 class="education-title">Kingston University</h4>
-                <p>Master's Degree - Software Engineering</p>
-                <h4 class="education-years">2019 - 2023</h4>
+              <div class="Experience-info">
+                <h4 class="Experience-title"></h4>
+                <p></p>
+                <h4 class="Experience-years"></h4>
               </div>
             </div>
           </div>
 
           <div class="skills-right">
+            <h1 class="pre-title2">Skills</h1>
             <p>
-              For 5+ years, I have been continuously learning in the field of
-              front-end and experimenting with new technologies and frameworks,
-              and here you can see a summary of my skills. Field of front-end
-              and experimenting with new technologies.
+              "For over a year, I have been learning in the field of web programming,
+              covering both back-end and front-end. I have experimented with several
+               frameworks such as Laravel and Vue.js, and here you can see a summary of my skills."
             </p>
 
             <div class="skills-list">
@@ -287,25 +289,18 @@
                 <li>JavaScript</li>
                 <li>Vue JS</li>
               </ul>
-
-              <!-- <ul>
-                <li>CSS</li>
-                <li>Typescript</li>
-                <li>Next JS</li>
-                <li>GraphQl</li>
-                <li>Angular JS</li>
-              </ul> -->
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- End Skills & Education  -->
+    <!-- End Skills & Experience  -->
 
    <!-- Contact -->
 <section id="contact">
   <div class="contact main-container">
     <div class="contact-left">
+      <h1 class="section-title">GET IN TOUCH</h1>
       <img src="./images/ContactUs.png" alt="contactus">
     </div>
 
@@ -342,7 +337,7 @@
         </div>
         <div class="contact-item-detail">
           <h4>Email</h4>
-          <p>haikalridha07"gmail.com</p>
+          <p>haikalridha07@gmail.com</p>
         </div>
       </div>
     </div>
@@ -519,6 +514,27 @@ a {
   top: 50%;
 }
 
+.pre-title2 {
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  color: var(--secondaryTextColor);
+  position: relative;
+  padding-left: 40px;
+  width: fit-content;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.pre-title2::before {
+  content: "";
+  width: 30px;
+  height: 1px;
+  background: var(--lineColor);
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 50%;
+}
 /* Layouts */
 .grid-3 {
   display: grid;
@@ -584,40 +600,46 @@ nav ul li a {
 /* Hero Section */
 #hero {
   display: flex;
-  flex-direction: column; /* Default to column layout for small screens */
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  /* margin-top: 0%; */
+  margin-top: 2rem;
+  text-align: center; /* Center text on smaller screens */
+  padding: 0 1rem;
 }
 
 @media(min-width: 768px) {
   #hero {
-    flex-direction: row; /* On larger screens, use row layout */
+    flex-direction: row; /* Pada layar besar, atur secara horizontal */
     justify-content: space-between;
-    
+    align-items: center;
+    text-align: left; /* Align text to the left on larger screens */
   }
 }
 
 .hero-left {
   flex: 1;
-  padding: 1rem; /* Add some padding */
+  padding: 1rem;
 }
 
 .hero-right {
   flex: 1;
-  /* padding: 2rem; Ensure both sides have equal space */
-  margin-bottom: 50px;
+  display: flex;
+  justify-content: center; /* Center the image */
+  align-items: center;
+  margin-top: 2rem; /* Add some margin on small screens */
 }
 
-/* .egg {
-  
-} */
-
-
 .hero-name {
-  font-size: 3rem;
+  font-size: 2.5rem; /* Slightly smaller font on mobile */
   font-weight: 700;
-  margin: 0.5rem 0 1rem;
+  margin: 1rem 0;
+}
+
+@media(min-width: 768px) {
+  .hero-name {
+    font-size: 3rem; /* Larger font on bigger screens */
+  }
 }
 
 .hero-name span {
@@ -625,26 +647,25 @@ nav ul li a {
 }
 
 .hero-right img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  margin-left: 30px;
-  margin-top: 50px;
-  width: 400px;
-  height: 420px;
-  background-color:  #0000fe;
-  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-  /* border-radius: var(--itemBorderRadius); */
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
+  width: 80%; /* Make the image responsive */
+  max-width: 250px; /* Ensure the image doesn't get too big */
+  height: auto;
+  border-radius: 50%; /* Ensure a circular image */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 24px 30px,
+   rgba(0, 0, 0, 0.12) 0px -8px 15px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+     rgba(0, 0, 0, 0.17) 0px 8px 7px,
+     rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin: 1rem 0;
 }
 
-.hero-right {
-  display: flex;
-  justify-content: center;
+@media(min-width: 768px) {
+  .hero-right img {
+    margin-left: 50px;
+    margin-top: 0;
+  }
 }
+
 
 /* Services Section */
 #services {
@@ -762,7 +783,7 @@ nav ul li a {
   color: var(--secondaryTextColor);
 }
 
-/* Skills and Education */
+/* Skills and Experience */
 #skills {
   padding: var(--sectionPadding);
   background: var(--secondaryBackgroundColor);
@@ -775,32 +796,32 @@ nav ul li a {
   gap: 3rem;
 }
 
-.education {
+.Experience {
   display: flex;
   gap: 1rem;
 }
 
-.education .line {
+.Experience .line {
   padding: 0 0.7rem;
 }
 
-.education .line div {
+.Experience .line div {
   width: 2px;
   height: 100%;
   background: var(--borderColor);
   position: relative;
 }
 
-.education-info p {
+.Experience-info p {
   margin: 0.6rem 0 1.4rem;
 }
 
-.education-years {
+.Experience-years {
   margin-bottom: 3rem;
 }
 
 /* The dot on the line */
-.education .line div:before {
+.Experience .line div:before {
   content: "";
   width: 15px;
   height: 15px;
@@ -824,64 +845,89 @@ nav ul li a {
 
 /* General styles for the contact section */
 #contact {
-  padding: 60px 30px; /* Increased padding for more space */
-  background-color: #f9f9f9; /* Light background color */
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+pre-title {
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  color: var(--secondaryTextColor);
+  position: relative;
+  padding-left: 40px;
+  width: fit-content;
+  font-weight: 400;
+  font-size: 0.9rem;
 }
 
 .contact {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
-  max-width: 1200px; /* Adjust max-width as needed */
-  margin: 0 auto; /* Center container */
-  /* gap: 50px; Space between contact-left and contact-right */
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 50px;
 }
 
 /* Styles for the left side (image) */
 .contact-left {
-  flex: 1;
+  flex: 1.5; /* Adjust flex value to give more space to the image */
+  text-align: center;
 }
 
 .contact-left img {
   max-width: 100%;
   height: auto;
-  border-radius: 12px; /* Optional: rounded corners for the image */
+  border-radius: 12px;
   width: 100%; /* Ensure image takes full width of the container */
-  height: auto; /* Maintain aspect ratio */
+  max-width: 600px; /* Set a larger max width for the image */
 }
 
 /* Styles for the right side (contact items) */
 .contact-right {
-  flex: 2;
+  flex: 1; /* Adjust flex value to give more space to the image */
 }
 
 .contact-item {
   display: flex;
-  align-items: flex-start; /* Align items to the top for better spacing */
-  margin-bottom: 25px; /* Space between contact items */
+  align-items: flex-start;
+  margin-bottom: 25px;
 }
 
 .contact-item-icon {
-  margin-right: 20px; /* Space between icon and text */
+  margin-right: 20px;
 }
 
 .contact-item-icon svg {
-  fill: #333; /* Icon color */
-  width: 30px; /* Larger icon size */
-  height: 30px; /* Larger icon size */
+  fill: #333;
+  width: 30px;
+  height: 30px;
 }
 
 .contact-item-detail h4 {
-  margin: 0 0 10px; /* Space below the heading */
-  font-size: 18px; /* Larger font size for headings */
+  margin: 0 0 10px;
+  font-size: 18px;
   color: #333;
 }
 
 .contact-item-detail p {
   margin: 0;
-  font-size: 16px; /* Larger font size for text */
-  color: #666; /* Text color */
+  font-size: 16px;
+  color: #666;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact-left img {
+    max-width: 90%; /* Reduce image size for smaller screens */
+  }
+}
+
 
 /* Footer Section */
 footer {
